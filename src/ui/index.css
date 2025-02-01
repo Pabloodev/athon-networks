@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    243deg,
+    rgba(0, 0, 0, 1) 21%,
+    rgba(8, 46, 57, 1) 100%
+  );
+  font-family: Geist;
+  color: rgb(155, 154, 154);
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: white;
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  border-top: 1px solid rgb(94, 94, 94);
+  border-bottom: 1px solid rgb(128, 127, 127);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+button:hover {
+  border-right: 1px solid rgb(94, 94, 94);
+  border-left: 1px solid rgb(128, 127, 127);
+  border-top: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+}
