@@ -1,11 +1,11 @@
 @import "tailwindcss";
 
 body {
-  background: rgb(0, 0, 0);
+  background: #0B0B0B;
   background: linear-gradient(
     243deg,
     rgba(0, 0, 0, 1) 21%,
-    rgba(8, 46, 57, 1) 100%
+    rgb(7, 20, 37) 100%
   );
   font-family: Geist;
   color: rgb(155, 154, 154);
@@ -28,7 +28,7 @@ button {
   border-top: 1px solid rgb(94, 94, 94);
   border-bottom: 1px solid rgb(128, 127, 127);
   color: white;
-  padding: 10px 30px;
+  padding: 5px 30px;
   border-radius: 25px;
   font-size: 1em;
   cursor: pointer;
@@ -40,4 +40,28 @@ button:hover {
   border-left: 1px solid rgb(128, 127, 127);
   border-top: 1px solid rgb(255, 255, 255);
   border-bottom: 1px solid rgb(255, 255, 255);
+}
+
+/* Estilização da barra de rolagem */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #444;
+}
+
+/* Para Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #333 #1a1a1a;
 }
