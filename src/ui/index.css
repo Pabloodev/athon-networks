@@ -2,7 +2,7 @@
 
 body {
   background: #0B0B0B;
-  background: linear-gradient(45deg, #1b0214, #04041b, #06000a, #0c0c0e, #0b011b, #10021d, #0c0224);
+  background: linear-gradient(45deg, #4b027f, #2f0643, #06464b, #06145e, #0a010d, #10021d, #250446);
   background-size: 400% 400%;
   animation: gradientBG 15s ease infinite;
   font-family: Geist;

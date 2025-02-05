@@ -14,7 +14,7 @@ export default function Header() {
     }, []);
 
   return (
-    <header className="flex justify-between items-center p-4 px-40">
+    <header className="flex justify-between items-center px-40 mt-5">
       <div className="flex items-center gap-2">
         <span className={`letter ${isAnimating ? 'animate' : ''}`}>A</span>
         <span className={`letter ${isAnimating ? 'animate' : ''}`}>T</span>
@@ -24,7 +24,7 @@ export default function Header() {
       </div>
 
       <nav>
-        <ul className="flex gap-6 items-center">
+        <ul className="flex gap-6 items-center text-gray-300">
           <li>
             <a href="#">Home</a>
           </li>

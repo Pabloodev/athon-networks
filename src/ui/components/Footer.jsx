@@ -10,10 +10,10 @@ const Footer = () => {
         <div className="mb-12">
           <div className="flex flex-col mb-8">
             <Timer className="w-8 h-8 mb-4" />
-            <h2 className="text-4xl font-bold mb-4">Time is ownership.</h2>
+            <h2 className="text-4xl font-bold mb-4">Gestão, segurança e conforto.</h2>
             <p className="text-gray-400 max-w-md">
-              A secure and decentralized platform that redistributes ownership
-              and governance through our token system.
+            is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been
             </p>
           </div>
 
@@ -21,7 +21,7 @@ const Footer = () => {
           <div className="flex gap-2 max-w-md mb-12">
             <input
               type="email"
-              placeholder="email@company.com"
+              placeholder="email@empresa.com"
               className="bg-gray-900 rounded px-4 py-2 flex-grow text-sm"
             />
             <button className="bg-white text-black px-6 py-2 rounded hover:bg-gray-200 transition-colors">
@@ -32,42 +32,20 @@ const Footer = () => {
           {/* Links Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-12">
             <div>
-              <h3 className="font-medium mb-4">About</h3>
+              <h3 className="font-medium mb-4">Sobre</h3>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white">Home</a></li>
                 <li><a href="#" className="hover:text-white">Blog</a></li>
-                <li><a href="#" className="hover:text-white">Contact</a></li>
-                <li><a href="#" className="hover:text-white">Brand Kit</a></li>
+                <li><a href="#" className="hover:text-white">Serviços</a></li>
+                <li><a href="#" className="hover:text-white">Contato</a></li>
               </ul>
             </div>
 
             <div>
-              <h3 className="font-medium mb-4">Product</h3>
+              <h3 className="font-medium mb-4">Legal & Segurança</h3>
               <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">Documentation</a></li>
-                <li><a href="#" className="hover:text-white">Whitepaper</a></li>
-                <li><a href="#" className="hover:text-white">Changelog</a></li>
-                <li><a href="#" className="hover:text-white">Feature requests</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-medium mb-4">Ecosystem</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">Mirror</a></li>
-                <li><a href="#" className="hover:text-white">Careers</a></li>
-                <li><a href="#" className="hover:text-white">Build with us</a></li>
-              </ul>
-            </div>
-
-            <div>
-              <h3 className="font-medium mb-4">Legal & Security</h3>
-              <ul className="space-y-2 text-gray-400">
-                <li><a href="#" className="hover:text-white">Terms of Service</a></li>
-                <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="hover:text-white">Risk Policy</a></li>
-                <li><a href="#" className="hover:text-white">Audit</a></li>
-                <li><a href="#" className="hover:text-white">Bug Bounty</a></li>
+                <li><a href="#" className="hover:text-white">Termos de serviço</a></li>
+                <li><a href="#" className="hover:text-white">Politica de privacidade</a></li>
               </ul>
             </div>
           </div>
@@ -76,7 +54,7 @@ const Footer = () => {
         {/* Footer Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-800">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            © {currentYear} Company. All rights reserved.
+            © {currentYear} Athon Networks. Todos direitos reservados.
           </p>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">
