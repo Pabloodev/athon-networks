@@ -2,13 +2,23 @@
 
 body {
   background: #0B0B0B;
-  background: linear-gradient(
-    243deg,
-    rgba(0, 0, 0, 1) 21%,
-    rgb(7, 20, 37) 100%
-  );
+  background: linear-gradient(45deg, #1b0214, #04041b, #06000a, #0c0c0e, #0b011b, #10021d, #0c0224);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
   font-family: Geist;
   color: rgb(155, 154, 154);
+}
+
+@keyframes gradientBG {
+  0% {
+      background-position: 0% 50%;
+  }
+  50% {
+      background-position: 100% 50%;
+  }
+  100% {
+      background-position: 0% 50%;
+  }
 }
 
 h1 {
@@ -19,27 +29,6 @@ h1 {
 a:hover {
   transition: 0.3s;
   color: white;
-}
-
-button {
-  background-color: rgb(0, 0, 0);
-  border-right: 1px solid white;
-  border-left: 1px solid white;
-  border-top: 1px solid rgb(94, 94, 94);
-  border-bottom: 1px solid rgb(128, 127, 127);
-  color: white;
-  padding: 5px 30px;
-  border-radius: 25px;
-  font-size: 1em;
-  cursor: pointer;
-  transition: 0.9s;
-}
-
-button:hover {
-  border-right: 1px solid rgb(94, 94, 94);
-  border-left: 1px solid rgb(128, 127, 127);
-  border-top: 1px solid rgb(255, 255, 255);
-  border-bottom: 1px solid rgb(255, 255, 255);
 }
 
 /* Estilização da barra de rolagem */
@@ -64,4 +53,63 @@ button:hover {
 * {
   scrollbar-width: thin;
   scrollbar-color: #333 #1a1a1a;
+}
+
+#example {
+  width: 100vw;
+  max-width: 400px;
+  position: relative;
+}
+
+#example #progress {
+    position: absolute;
+    top: -65px;
+    left: -15px;
+    transform: rotate(-90deg);
+}
+
+#example .bg {
+    stroke: var(--layer);
+}
+
+#example #progress circle {
+    stroke-dashoffset: 0;
+    stroke-width: 10%;
+    fill: none;
+}
+
+#progress .indicator {
+    stroke: var(--accent);
+}
+
+#example ul {
+    display: flex;
+    list-style: none;
+    height: 220px;
+    overflow-x: scroll;
+    padding: 20px 0;
+    flex: 0 0 600px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+#example ::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+    background: #fff3;
+    -webkit-border-radius: 1ex;
+}
+
+#example ::-webkit-scrollbar-thumb {
+    background: var(--accent);
+    -webkit-border-radius: 1ex;
+}
+
+#example ::-webkit-scrollbar-corner {
+    background: #fff3;
+}
+
+#example li {
+    flex: 0 0 200px;
+    background: var(--accent);
 }
