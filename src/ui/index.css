@@ -1,24 +1,10 @@
 @import "tailwindcss";
 
 body {
-  background: #0B0B0B;
-  background: linear-gradient(45deg, #4b027f, #2f0643, #06464b, #06145e, #0a010d, #10021d, #250446);
-  background-size: 400% 400%;
+  background: #1a171c;
   animation: gradientBG 15s ease infinite;
   font-family: Geist;
   color: rgb(155, 154, 154);
-}
-
-@keyframes gradientBG {
-  0% {
-      background-position: 0% 50%;
-  }
-  50% {
-      background-position: 100% 50%;
-  }
-  100% {
-      background-position: 0% 50%;
-  }
 }
 
 h1 {
@@ -29,6 +15,7 @@ h1 {
 a:hover {
   transition: 0.3s;
   color: white;
+  font-style: bold;
 }
 
 /* Estilização da barra de rolagem */
