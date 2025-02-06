@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #000;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2%, transparent 5%);
+  background-color: #0f0f0f;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.212) 2%, transparent 5%);
   background-size: 5px 5px;
   font-family: Geist;
   color: rgb(155, 154, 154);
@@ -24,7 +24,6 @@ a:hover {
   font-style: bold;
 }
 
-/* Estilização da barra de rolagem */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -42,7 +41,6 @@ a:hover {
   background: #444;
 }
 
-/* Para Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: #333 #1a1a1a;

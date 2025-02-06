@@ -31,9 +31,9 @@ export function useFollowPointer() {
 }
 
 const ball = {
-    width: 20,
-    height: 20,
-    backgroundColor: "#ff0088",
+    width: 15,
+    height: 15,
+    backgroundColor: "#09de69",
     borderRadius: "50%",
     position: "fixed",
     top: 0,

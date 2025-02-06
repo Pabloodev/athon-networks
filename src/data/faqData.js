@@ -2,27 +2,27 @@ const faqData = [
   {
     question: "O que é Athon Networks?",
     answer:
-      "Athon Networks is a leading technology company providing cloud computing, network services, and innovative technological solutions to help businesses thrive in the digital age.",
+      "A Athon Networks é uma empresa especializada em soluções tecnológicas para empresas e provedores de internet, oferecendo conectividade segura e eficiente.",
   },
   {
     question: "Quais tipos de serviços oferecemos?",
     answer:
-      "We offer a comprehensive suite of services including cloud computing, cybersecurity, IT support, software development, network infrastructure, and managed services.",
+      "Oferecemos soluções em conectividade, segurança, monitoramento e otimização de redes, além de consultoria e treinamentos especializados.",
   },
   {
     question: "Como a Athon Networks pode ajudar na minha empresa?",
     answer:
-      "We help businesses modernize their infrastructure, enhance security, improve efficiency, and stay competitive in the digital landscape through our cutting-edge solutions and expert support.",
+      "Ajudamos a otimizar sua infraestrutura, aumentar a segurança, melhorar a performance da rede e implementar soluções tecnológicas personalizadas.",
   },
   {
     question: "O que faz a Athon Networks ser diferente?",
     answer:
-      "Our unique approach combines industry expertise, innovative technology, and personalized service to deliver solutions that are tailored to each clients specific needs and goals.",
+      "Nossa expertise técnica, atendimento personalizado e compromisso com resultados nos tornam um parceiro estratégico para o crescimento do seu negócio.",
   },
   {
     question: "Como eu posso contratar a Athon Networks?",
     answer:
-      "Getting started is easy! Simply contact our team through our website or phone, and well schedule a consultation to discuss your needs and create a customized solution for your business.",
+      "Entre em contato conosco por nosso site, e-mail ou telefone para uma consulta personalizada e descubra como podemos ajudar sua empresa.",
   },
 ];
 

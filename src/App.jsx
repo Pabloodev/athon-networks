@@ -5,7 +5,6 @@ import LayoutCursor from "./ui/layoutCursor";
 import Header from "./ui/components/Header";
 import Footer from "./ui/components/Footer";
 
-
 // Import Pages
 import Home from './pages/Home'
 import About from "./pages/About";

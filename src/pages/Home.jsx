@@ -7,6 +7,7 @@ export default function Home() {
         animate={{ scale: 1 }}
         transition={{ duration: 2 }}
         className="flex flex-col items-center justify-center h-screen space-y-4"
+        id="home"
       >
         <h1 className="text-6xl font-bold text-white glow mb-4">
           Athon Networks
@@ -24,7 +25,6 @@ export default function Home() {
             )
           )}
         </div>
-
       </motion.div>
   )
 }

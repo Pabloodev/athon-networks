@@ -12,8 +12,7 @@ const Footer = () => {
             <Timer className="w-8 h-8 mb-4" />
             <h2 className="text-4xl font-bold mb-4">Gestão, segurança e conforto.</h2>
             <p className="text-gray-400 max-w-md">
-            is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been
+            Entre em contato conosco e tire todas suas duvidas
             </p>
           </div>
 

@@ -47,7 +47,7 @@ export default function Header() {
       </nav>
 
       <a href="services">
-        <button>Services</button>
+        <button>Contact Us</button>
       </a>
     </header>
     </motion.div>
