@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 body {
-  background: #1a171c;
-  animation: gradientBG 15s ease infinite;
+  background-color: #0d0d0d;
+  background-repeat: repeat;
   font-family: Geist;
   color: rgb(155, 154, 154);
 }
