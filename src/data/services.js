@@ -16,7 +16,7 @@ const services = [
     
     {
         src: "https://images.unsplash.com/photo-1516116216624-53e697fedbea?auto=format&fit=crop&w=400&h=300",
-        title: "Athon engineering",
+        title: "Athon Engineering",
         subtitle: "Explore o Gitbook do Usual para todos os detalhes sobre o protocolo",
         link: "#",
         linkMessage: "Explorar Gitbook",

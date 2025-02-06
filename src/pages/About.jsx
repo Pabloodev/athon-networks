@@ -18,8 +18,8 @@ export default function About() {
           Com uma equipe qualificada e atualizada, a Athon Networks se posiciona como parceira estratégica para garantir que a tecnologia seja uma ferramenta essencial no crescimento dos seus clientes.
         </p>
       </div>
-      <div className="mt-10 md:mt-0 md:ml-12 w-full max-w-md">
-        <p className="text-center font-semibold">Empresas Parceiras</p>
+      <div className="">
+        <p className="text-center font-semibold text-3xl">Empresas Parceiras</p>
         <div>
           <img src="./Logos.png" alt="" />
         </div>
