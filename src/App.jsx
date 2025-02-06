@@ -1,6 +1,10 @@
+// Layout
+import LayoutCursor from "./ui/layoutCursor";
+
 // UI / Components Imports
 import Header from "./ui/components/Header";
 import Footer from "./ui/components/Footer";
+
 
 // Import Pages
 import Home from './pages/Home'
@@ -11,12 +15,14 @@ import FAQ from "./pages/FAQ";
 export default function App() {
   return (
     <>
+      <LayoutCursor>
       <Header />
       <Home />
       <About />
       <Services />
       <FAQ />
       <Footer />
+      </LayoutCursor>
     </>
   );
 }

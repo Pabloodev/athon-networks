@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { motion } from "motion/react";
 
 export default function Header() {
 
@@ -14,6 +15,11 @@ export default function Header() {
     }, []);
 
   return (
+    <motion.div
+        initial={{ scale: 2 }}
+        animate={{ scale: 1 }}
+        transition={{ duration: 2 }}
+      >
     <header className="flex justify-between items-center px-40 mt-5">
       <div className="flex items-center gap-2">
         <span className={`letter ${isAnimating ? 'animate' : ''}`}>A</span>
@@ -44,5 +50,6 @@ export default function Header() {
         <button>Services</button>
       </a>
     </header>
+    </motion.div>
   );
 }
