@@ -6,7 +6,7 @@
 
 body {
   background-color: #0f0f0f;
-  background-image: radial-gradient(rgba(255, 255, 255, 0.212) 2%, transparent 5%);
+  background-image: radial-gradient(rgba(255, 255, 255, 0.112) 2%, transparent 5%);
   background-size: 5px 5px;
   font-family: Geist;
   color: rgb(155, 154, 154);

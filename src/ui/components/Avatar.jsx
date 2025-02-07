@@ -1,6 +1,5 @@
 import * as AvatarPrimitive from "@radix-ui/react-avatar";
 
-
 export function Avatar({ className, ...props }) {
     return (
         <AvatarPrimitive.Root
