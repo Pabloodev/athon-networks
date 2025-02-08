@@ -34,7 +34,7 @@ export default function About() {
           <img
             src="./Logos.png"
             alt="Empresas Parceiras"
-            className="w-full max-w-xs sm:max-w-md"
+            className="w-full"
           />
         </div>
       </div>

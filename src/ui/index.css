@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-* {
-  cursor: none;
-}
-
 body {
   background-color: #0f0f0f;
   background-image: radial-gradient(rgba(255, 255, 255, 0.112) 2%, transparent 5%);
