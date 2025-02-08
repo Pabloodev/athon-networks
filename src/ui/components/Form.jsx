@@ -30,12 +30,9 @@ export default function Form() {
                 placeholder="email@empresa.com"
                 className="bg-gray-900 rounded px-4 py-2 flex-grow text-sm"
             />
-
             <button className="bg-gray-900 text-white px-6 py-2 text-sm rounded hover:bg-gray-500 transition-colors mt-3">
                 Subscribe
             </button>
-
-
         </form>
     )
 }

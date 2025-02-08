@@ -4,7 +4,6 @@ export default function About() {
       className="min-h-screen text-white flex flex-col md:flex-row items-center justify-center px-6 sm:px-16 py-8 sm:py-12 gap-10"
       id="about"
     >
-      {/* Texto principal */}
       <div className="max-w-2xl text-center md:text-left">
         <h3 className="text-purple-400 text-xs sm:text-sm font-semibold mb-2">
           Por que Athon Networks?
@@ -25,7 +24,6 @@ export default function About() {
         </p>
       </div>
 
-      {/* Empresas Parceiras */}
       <div className="flex flex-col items-center">
         <p className="text-center font-semibold text-xl sm:text-3xl mb-4">
           Empresas Parceiras

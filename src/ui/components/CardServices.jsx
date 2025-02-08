@@ -1,6 +1,6 @@
-import { BookOpen, MessageCircle, Newspaper } from 'lucide-react';
+import { MessageCircle } from 'lucide-react';
 
-export default function CardServices({src, title, subtitle, link, linkMessage}) {
+export default function CardServices({src, title, description, link, linkMessage}) {
   return(
     <div>
       <div className="bg-zinc-900 rounded-xl p-8 hover:bg-zinc-800 transition-colors">
@@ -13,7 +13,7 @@ export default function CardServices({src, title, subtitle, link, linkMessage}) 
             </div>
             <h3 className="text-2xl font-bold mb-4">{title}</h3>
             <p className="text-gray-400 mb-6">
-              {subtitle}
+              {description}
             </p>
             <a 
               href={link}

@@ -52,7 +52,7 @@ export default function Header() {
         </nav>
 
         <a href="#contact" className="hidden sm:block">
-          <button className="bg-black hover:bg-blue-700 text-white px-4 py-2 rounded rounded-lg duration-300 cursor-pointer
+          <button className="bg-black hover:bg-white hover:text-black text-white px-4 py-2 rounded rounded-lg duration-300 cursor-pointer
 ">
             Contact Us
           </button>

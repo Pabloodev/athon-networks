@@ -11,7 +11,6 @@ export default function Home() {
         className="flex flex-col items-center justify-center min-h-screen space-y-6 px-4 sm:px-0 text-center"
         id="home"
       >
-
         <h1 className="text-4xl sm:text-6xl font-bold text-white glow mb-4">
           Athon Networks
         </h1>
@@ -30,7 +29,9 @@ export default function Home() {
             )
           )}
         </div>
-        <CeoContainer />
+        <div className="mt-10 md:mt-20">
+          <CeoContainer />
+        </div>
       </motion.div>
     </>
   );
