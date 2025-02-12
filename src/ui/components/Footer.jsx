@@ -29,7 +29,7 @@ const Footer = () => {
                 placeholder="email@empresa.com"
                 className="bg-gray-900 rounded px-4 py-2 text-sm w-full sm:flex-grow"
               />
-              <button className="bg-white text-black px-6 py-2 rounded hover:bg-gray-200 transition-colors w-full sm:w-auto">
+              <button className="cursor-pointer bg-white text-black px-6 py-2 rounded hover:bg-gray-200 transition-colors w-full sm:w-auto">
                 Subscribe
               </button>
             </div>
