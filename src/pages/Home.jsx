@@ -2,6 +2,7 @@ import { motion } from "motion/react";
 import CeoContainer from "../ui/components/CeoContainer";
 
 export default function Home() {
+  
   return (
     <>
       <motion.div
