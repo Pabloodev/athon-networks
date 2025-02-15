@@ -1,47 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Cloud, Shield, Headset, Code, Globe } from "lucide-react";
 import CeoContainer from "../ui/components/CeoContainer";
-
-const slides = [
-  {
-    title: "Athon Networks",
-    description:
-      "Cloud computing, network services, solutions that help your company be part of the future...",
-    icon: Globe,
-  },
-  {
-    title: "Cloud Computing",
-    description:
-      "Transform your business with scalable cloud solutions that drive innovation and growth",
-    icon: Cloud,
-  },
-  {
-    title: "Network Security",
-    description:
-      "Protect your digital assets with enterprise-grade security solutions and monitoring",
-    icon: Shield,
-  },
-  {
-    title: "24/7 Support",
-    description:
-      "Round-the-clock technical support to ensure your systems run smoothly",
-    icon: Headset,
-  },
-  {
-    title: "Custom Solutions",
-    description:
-      "Tailored development services to meet your unique business needs",
-    icon: Code,
-  },
-];
+import { slidesData } from "../data/slidesData";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
     const timer = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
+      setCurrentSlide((prev) => (prev + 1) % slidesData.length);
     }, 7000);
 
     return () => clearInterval(timer);
@@ -67,13 +34,13 @@ export default function Home() {
               className="w-full"
             >
               <h1 className="text-4xl sm:text-6xl font-bold text-white glow mb-4">
-                {slides[currentSlide].title}
+                {slidesData[currentSlide].title}
               </h1>
               <p className="text-sm sm:text-base max-w-md mx-auto text-gray-300">
-                {slides[currentSlide].description}
+                {slidesData[currentSlide].description}
               </p>
               <div className="mt-8 flex justify-center float-icon">
-                {React.createElement(slides[currentSlide].icon, {
+                {React.createElement(slidesData[currentSlide].icon, {
                   className: "w-16 h-16 text-blue-400",
                 })}
               </div>
@@ -82,7 +49,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center mt-4 space-x-2">
-          {slides.map((_, index) => (
+          {slidesData.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
