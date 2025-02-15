@@ -33,6 +33,7 @@ export default function About() {
             src="./Logos.png"
             alt="Empresas Parceiras"
             className="w-full"
+            loading="lazy"
           />
         </div>
       </div>

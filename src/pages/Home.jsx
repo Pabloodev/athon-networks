@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { Cloud, Shield, Headset, Code } from "lucide-react";
+import { Cloud, Shield, Headset, Code, Globe } from "lucide-react";
 import CeoContainer from "../ui/components/CeoContainer";
 
 const slides = [
   {
     title: "Athon Networks",
     description:
-      "Cloud computing, network services, soluções que ajudem sua empresa a fazer parte do furuto...",
-    icon: Cloud,
+      "Cloud computing, network services, solutions that help your company be part of the future...",
+    icon: Globe,
   },
   {
     title: "Cloud Computing",

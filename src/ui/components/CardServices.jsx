@@ -9,6 +9,7 @@ export default function CardServices({src, title, description, link, linkMessage
                 src={src}
                 alt={title}
                 className="w-full h-full object-cover rounded-lg opacity-80"
+                loading='lazy'
               />
             </div>
             <h3 className="text-2xl font-bold mb-4">{title}</h3>

@@ -78,7 +78,6 @@ export default function Header() {
             ))}
           </ul>
         </nav>
-
         <a href="#contact" className="hidden sm:block">
           <button
             className="bg-black hover:bg-white hover:text-black text-white px-4 py-2 rounded rounded-lg duration-700 cursor-pointer
