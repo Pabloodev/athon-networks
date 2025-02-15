@@ -1,8 +1,20 @@
-# React + Vite
+# Docs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![alt text](image.png)
 
-Currently, two official plugins are available:
+*** This is not a conventional documentation, its jut to show the corpative website that I built ***
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Information
+- Built with React
+- Icons with Lucide icons
+- Animation Dev for animations
+- Tailwind CSS for styles
+- SPA application
+
+## URLs pablodev
+- [Perfil on github](https://github.com/Pabloodev)
+- [Perfil on linkedin](https://www.linkedin.com/in/pabloteixeiraimproving/)
+
+---
+```
+I wanted to thank you for this fantastic work that had the chance to participate in, really creating a truly professional website, for a real company and here it is, it still needs improvements but I really liked my result.
