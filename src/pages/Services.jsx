@@ -47,13 +47,13 @@ export default function Services() {
                     <div className="space-y-6">
                       <div>
                         <h4 className="text-xl sm:text-2xl mb-3">Serviços</h4>
-                        <ul className="space-y-2">
+                        <ul className="space-y-2 flex flex-col">
                           {service.services.map((item, index) => (
                             <li
                               className="flex gap-3 items-center text-sm sm:text-base"
                               key={index}
                             >
-                              <CheckCircle className="text-green-500 w-6 h-6" />
+                              <CheckCircle className="text-sky-600 w-6 h-6 flex-shrink-0" />
 
                               {item}
                             </li>
@@ -63,13 +63,13 @@ export default function Services() {
 
                       <div>
                         <h4 className="text-xl sm:text-2xl mb-3">Benefícios</h4>
-                        <ul className="space-y-2">
+                        <ul className="space-y-2 flex flex-col">
                           {service.beneficios.map((item, index) => (
                             <li
                               className="flex gap-3 items-center text-sm sm:text-base"
                               key={index}
                             >
-                              <CheckCircle className="text-green-500 w-6 h-6" />
+                              <CheckCircle className="text-sky-600 w-6 h-6 flex-shrink-0" />
 
                               {item}
                             </li>

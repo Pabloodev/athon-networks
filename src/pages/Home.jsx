@@ -9,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slidesData.length);
-    }, 7000);
+    }, 5000);
 
     return () => clearInterval(timer);
   }, []);
@@ -20,7 +20,7 @@ export default function Home() {
         initial={{ scale: 0 }}
         animate={{ scale: 1 }}
         transition={{ duration: 2 }}
-        className="flex flex-col items-center justify-center min-h-screen space-y-6 px-4 sm:px-0 text-center"
+        className="flex flex-col items-center justify-center min-h-screen space-y-6 px-4 sm:px-0 text-center overflow-hidden"
         id="home"
       >
         <div className="relative w-full max-w-4xl">

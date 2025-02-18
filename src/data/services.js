@@ -125,6 +125,69 @@ const services = [
       "Maior eficiência operacional e tranquilidade para sua equipe de TI.​",
     ],
   },
+  {
+    src: "https://images.unsplash.com/photo-1677442135732-00cab8f454e1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Athon Intelligence",
+    description:
+      "Solução da Athon Networks para análise e visualização de dados empresariais. Projetado para empoderar empresas com insights valiosos.",
+    link: "#",
+    linkMessage: "Clique para saber mais",
+    services: [
+      "Análise avançada de dados",
+      "Painéis interativos e personalizáveis",
+      "Monitoramento de KPIs em tempo real",
+      "Relatórios detalhados e exportáveis",
+      "Integração com múltiplas fontes de dados",
+    ],
+    beneficios: [
+      "Tomada de decisão baseada em dados concretos.",
+      "Identificação de padrões e tendências empresariais.",
+      "Melhoria na previsibilidade e planejamento estratégico.",
+      "Aumento da eficiência operacional e redução de custos.",
+    ],
+  },
+  {
+    src: "https://images.unsplash.com/photo-1543946602-a0fce8117697?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Athon Survey",
+    description:
+      "Serviço especializado da Athon Networks para a criação de captive portals e configuração de hotspots, oferecendo soluções inovadoras.",
+    link: "#",
+    linkMessage: "Clique para saber mais",
+    services: [
+      "Criação e personalização de captive portals",
+      "Configuração avançada de hotspots",
+      "Autenticação segura e integrada",
+      "Monitoramento do tráfego e análise de usuários",
+      "Compatibilidade com diversas redes e dispositivos",
+    ],
+    beneficios: [
+      "Melhoria na experiência do usuário ao acessar redes Wi-Fi.",
+      "Aumento da segurança com autenticação robusta.",
+      "Geração de insights estratégicos sobre os usuários da rede.",
+      "Facilidade na gestão e controle de acessos.",
+    ],
+  },
+  {
+    src: "https://plus.unsplash.com/premium_photo-1700952001105-a71855bb0184?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    title: "Athon Virtualization",
+    description:
+      "Serviço da Athon Networks especializado em virtualização de máquinas, utilizando as plataformas Proxmox e VMware.",
+    link: "#",
+    linkMessage: "Clique para saber mais",
+    services: [
+      "Monitoramento Inteligente e Centralizado",
+      "Análises e Dashboards Avançados",
+      "Alertas Automatizados e Proativos",
+      "Relatórios Estratégicos e Insights",
+      "Customização e Integração Flexível",
+    ],
+    beneficios: [
+      "Redução de interrupções e maior disponibilidade dos serviços.",
+      "Identificação rápida de gargalos e problemas potenciais.",
+      "Planejamento estratégico com base em dados confiáveis e consistentes.",
+      "Maior eficiência operacional e tranquilidade para sua equipe de TI.​",
+    ],
+  },
 ];
 
 export default services;
