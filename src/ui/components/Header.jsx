@@ -30,7 +30,7 @@ export default function Header() {
     },
     {
       title: "Blog",
-      href: "#blog",
+      href: "https://pabloodev.github.io/blog-athon-networks/",
     },
     {
       title: "Contato",
