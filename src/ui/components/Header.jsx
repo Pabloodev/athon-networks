@@ -28,10 +28,10 @@ export default function Header() {
       title: "Sobre",
       href: "#about",
     },
-    {
-      title: "Blog",
-      href: "https://pabloodev.github.io/blog-athon-networks/",
-    },
+    // {
+    //   title: "Blog",
+    //   href: "https://pabloodev.github.io/blog-athon-networks/",
+    // },
     {
       title: "Contato",
       href: "#contact",
@@ -46,16 +46,22 @@ export default function Header() {
     >
       <header className="flex justify-between items-center px-6 sm:px-20 lg:px-40 mt-5">
         <div className="flex items-center gap-2">
-          <span className={`letter ${isAnimating ? "animate" : ""}`}>A</span>
+          <span className={`letter ${isAnimating ? "animate" : ""}`}>N</span>
+          <span className={`letter ${isAnimating ? "animate" : ""}`}>E</span>
           <span className={`letter ${isAnimating ? "animate" : ""}`}>T</span>
-          <span className={`letter ${isAnimating ? "animate" : ""}`}>H</span>
+          <span className={`letter ${isAnimating ? "animate" : ""}`}>W</span>
+
           <img
-            width={30}
-            src="./athonfav.png"
+            width={40}
+            src="./iconathon.png"
             alt="Logo"
             className={`logo ${isAnimating ? "animate" : ""}`}
           />
-          <span className={`letter ${isAnimating ? "animate" : ""}`}>N</span>
+          <span className={`letter ${isAnimating ? "animate" : ""}`}>R</span>
+          <span className={`letter ${isAnimating ? "animate" : ""}`}>K</span>
+          <span className={`letter ${isAnimating ? "animate" : ""}`}>S</span>
+
+
         </div>
 
         <button

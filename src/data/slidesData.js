@@ -5,31 +5,31 @@ export const slidesData = [
   {
     title: "Athon Networks",
     description:
-      "Cloud computing, network services, solutions that help your company be part of the future...",
+      "Computação em nuvem, serviços de rede, soluções que ajudam sua empresa a fazer parte do futuro...",
     icon: Globe,
   },
   {
     title: "Cloud Computing",
     description:
-      "Transform your business with scalable cloud solutions that drive innovation and growth",
+      "Transforme seu negócio com soluções em nuvem escaláveis ​​que impulsionam a inovação e o crescimento",
     icon: Cloud,
   },
   {
     title: "Network Security",
     description:
-      "Protect your digital assets with enterprise-grade security solutions and monitoring",
+      "Proteja seus ativos digitais com soluções de segurança e monitoramento de nível empresarial",
     icon: Shield,
   },
   {
     title: "24/7 Support",
     description:
-      "Round-the-clock technical support to ensure your systems run smoothly",
+      "Suporte técnico 24 horas por dia para garantir que seus sistemas funcionem sem problemas",
     icon: Headset,
   },
   {
     title: "Custom Solutions",
     description:
-      "Tailored development services to meet your unique business needs",
+      "Serviços de desenvolvimento personalizados para atender às suas necessidades comerciais exclusivas",
     icon: Code,
   },
 ];
