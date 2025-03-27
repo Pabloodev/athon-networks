@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 export default function CardServices({src, title, description, link, linkMessage}) {
   return(
     <div>
-      <div className="bg-zinc-900 rounded-xl p-8 hover:bg-zinc-800 transition-colors">
+      <div className="bg-zinc-900 rounded-xl p-8 hover:bg-zinc-800 transition-colors cursor-grab">
             <div className="h-48 mb-8">
               <img 
                 src={src}

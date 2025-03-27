@@ -50,7 +50,7 @@ export default function Services() {
                         <ul className="space-y-2 flex flex-col">
                           {service.services.map((item, index) => (
                             <li
-                              className="flex gap-3 items-center text-sm sm:text-base"
+                              className="flex gap-3 items-center text-sm sm:text-base cursor-grab"
                               key={index}
                             >
                               <CheckCircle className="text-sky-600 w-6 h-6 flex-shrink-0" />

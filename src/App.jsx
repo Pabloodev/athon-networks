@@ -1,6 +1,6 @@
 import Header from "./ui/components/Header";
 import Footer from "./ui/components/Footer";
-
+import ScatterText from "./ui/components/ScatterText";
 
 // Import Pages
 import Home from './pages/Home'
@@ -13,6 +13,7 @@ export default function App() {
     <>
       <Header />
       <Home />
+      <ScatterText />
       <About />
       <Services />
       <FAQ />
