@@ -81,10 +81,10 @@ export default function Services() {
                         className="text-green-400 text-sm sm:text-base"
                         href="#"
                       >
-                        <button className="cursor-pointer">
+                        <a target="_blank" rel="noreferrer" href="https://wa.me/11946543738?text=$Olá gostaria de conversar sobre um serviço da Athon Networks!" className="cursor-pointer">
                           Estou interessado, gostaria de conversar com algum
                           representante.
-                        </button>
+                        </a>
                       </a>
                     </div>
 
