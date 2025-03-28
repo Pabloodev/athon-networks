@@ -1,5 +1,7 @@
 import { Github, Disc as Discord, Twitter, Linkedin, Globe2, Send, Timer } from 'lucide-react';
 import Form from './Form';
+import { Facebook } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -57,7 +59,7 @@ const Footer = () => {
 
           {/* Formulário de Contato */}
           <div id="contact" className="w-full md:w-1/2 text-center md:text-left">
-            <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
+            <h3 className="text-xl font-semibold mb-4">Contate-nos</h3>
             <Form />
           </div>
 
@@ -69,20 +71,15 @@ const Footer = () => {
             © {currentYear} Athon Networks. Todos direitos reservados.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-400 hover:text-white">
-              <Discord className="w-5 h-5" />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <Twitter className="w-5 h-5" />
-            </a>
+
             <a href="#" className="text-gray-400 hover:text-white">
               <Linkedin className="w-5 h-5" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <Github className="w-5 h-5" />
+              <Instagram className="w-5 h-5" />
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <Send className="w-5 h-5" />
+              <Facebook className="w-5 h-5" />
             </a>
           </div>
         </div>

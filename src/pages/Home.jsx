@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import CeoContainer from "../ui/components/CeoContainer";
 import { slidesData } from "../data/slidesData";
-import ScatterText from "../ui/components/ScatterText";
 
 export default function Home() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -10,7 +9,7 @@ export default function Home() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slidesData.length);
-    }, 5000);
+    }, 6000);
 
     return () => clearInterval(timer);
   }, []);
