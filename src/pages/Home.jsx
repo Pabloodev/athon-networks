@@ -41,7 +41,7 @@ export default function Home() {
               </p>
               <div className="mt-8 flex justify-center float-icon">
                 {React.createElement(slidesData[currentSlide].icon, {
-                  className: "w-16 h-16 text-blue-400",
+                  className: "w-16 h-16 text-purple-400",
                 })}
               </div>
             </motion.div>
@@ -54,7 +54,7 @@ export default function Home() {
               key={index}
               onClick={() => setCurrentSlide(index)}
               className={`w-2 h-2 rounded-full transition-colors duration-300 ${
-                currentSlide === index ? "bg-blue-500" : "bg-gray-600"
+                currentSlide === index ? "bg-purple-500" : "bg-gray-600"
               }`}
             />
           ))}

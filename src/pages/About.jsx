@@ -5,12 +5,12 @@ export default function About() {
       id="about"
     >
       <div className="max-w-2xl text-center md:text-left">
-        <h3 className="text-purple-400 text-xs sm:text-sm font-semibold mb-2">
+        <h3 className="text-purple-400 text-lg sm:text-sm font-semibold mb-2">
           Por que Athon Networks?
         </h3>
-        <h2 className="text-2xl sm:text-4xl font-bold">
+        <h2 className="text-3xl sm:text-4xl font-bold">
           Construindo juntos o{" "}
-          <span className="text-gray-500 line-through">Futuro</span>{" "}
+          <span className="text-gray-500 line-through">melhor</span>{" "}
           Espetacular.
         </h2>
         <p className="text-gray-300 mt-4 text-sm sm:text-base">

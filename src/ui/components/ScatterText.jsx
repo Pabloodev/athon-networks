@@ -53,11 +53,11 @@ export default function ScatterText() {
   return (
     <div className="flex items-center justify-center flex-col gap-10">
 
-      <p className="text-white">Juntos, podemos quebrar muitas barreiras (passe o mouse pelo texto abaixo)</p>
+      <p className="text-white text-center">Juntos, podemos quebrar muitas barreiras (passe o mouse pelo texto abaixo)</p>
 
       <div className="" ref={containerRef}>
 
-        <p className="scatter text-4xl text-purple-400">Quebre a barreira entre você e o futuro!</p>
+        <p className="scatter text-2xl sm:text-3xl text-purple-400">Quebre a barreira entre você e o futuro!</p>
       </div>
     </div>
   )
