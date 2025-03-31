@@ -4,7 +4,7 @@ export default function FAQItem({ question, answer, isOpen, onClick }) {
   return (
     <div className="border-b border-gray-700">
       <button
-        className="w-full py-6 flex justify-between items-center text-left"
+        className="w-full py-6 flex justify-between items-center text-left cursor-pointer"
         onClick={onClick}
       >
         <span className="text-lg font-medium text-white">{question}</span>

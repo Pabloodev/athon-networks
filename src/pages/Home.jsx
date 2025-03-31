@@ -41,24 +41,14 @@ export default function Home() {
               </p>
               <div className="mt-8 flex justify-center float-icon">
                 {React.createElement(slidesData[currentSlide].icon, {
-                  className: "w-16 h-16 text-purple-400",
+                  className: "w-16 h-16 text-purple-400 glow shadow-purple-500",
                 })}
               </div>
             </motion.div>
           </AnimatePresence>
         </div>
 
-        <div className="flex justify-center mt-4 space-x-2">
-          {slidesData.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={`w-2 h-2 rounded-full transition-colors duration-300 ${
-                currentSlide === index ? "bg-purple-500" : "bg-gray-600"
-              }`}
-            />
-          ))}
-        </div>
+
 
         <div className="mt-10 md:mt-20">
           <CeoContainer />

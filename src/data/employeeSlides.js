@@ -7,7 +7,7 @@ export const employeeSlides = [
   },
   {
     avatar: "./gunters.png",
-    name: "Marlon Cruz",
+    name: "Rai Nere",
     position: "CTO - Chief Technology Officer",
     comment: "Transformamos desafios em oportunidades, conectando pessoas e criando soluções que impulsionam negócios."
   },
