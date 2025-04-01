@@ -72,9 +72,8 @@ export default function Header() {
         </button>
 
         <nav
-          className={`${
-            menuOpen ? "block" : "hidden"
-          } sm:flex absolute sm:static top-16 left-0 w-full sm:w-auto bg-zinc-900 sm:bg-transparent p-4 sm:p-0 shadow-lg sm:shadow-none rounded sm:rounded-none z-40`}
+          className={`${menuOpen ? "block" : "hidden"
+            } sm:flex absolute sm:static top-16 left-0 w-full sm:w-auto bg-zinc-900 sm:bg-transparent p-4 sm:p-0 shadow-lg sm:shadow-none rounded sm:rounded-none z-40`}
         >
           <ul className="flex flex-col sm:flex-row gap-4 sm:gap-6 items-center text-gray-300">
             {navData.map((item, index) => (
@@ -86,10 +85,10 @@ export default function Header() {
         </nav>
         <a href="#contact" className="hidden sm:block">
           <button
-            className="bg-black hover:bg-white hover:text-black text-white px-4 py-2 rounded rounded-lg duration-700 cursor-pointer
+            className="bg-black hover:bg-white hover:text-black text-white px-4 py-2 rounded rounded-lg duration-700 cursor-pointer border-1 border-gray-400 shadow-white shadow-xs
 "
           >
-            Contate nos
+            Area do cliente
           </button>
         </a>
       </header>
